@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f8;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #1a3de0;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1530b0;
+}
+
+#contador {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#saudacao {
+  font-weight: bold;
+  color: #1a3de0;
+}
+
+/* classe adicionada pelo JavaScript */
+body.escuro {
+  background-color: #1b1b24;
+  color: #fff;
+}
